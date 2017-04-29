@@ -1,0 +1,82 @@
+ body{
+    font-family: 'courier','serif';
+ }
+ .header {
+                   
+    background-image: url("http://orig07.deviantart.net/132f/f/2016/027/a/6/wallpaper_geometric_color_34_1080p_hd_by_airworldking-d9pjqnf.png");
+    background-position:center;
+    height:100%;
+    left:0;
+    padding: 8em 4em;
+    position: fixed;
+    text-align: right;
+    top: 46;
+    width: 20%;
+  }
+
+.me {
+    border-radius: 100%;
+    width: 50%;  
+}
+
+.fb{
+    width:30px;
+}
+
+.cod{
+    width:30px;
+}
+
+
+ .fb:hover,.cod:hover{
+     -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: blur(2px);
+     filter: blur(2px);
+ }
+
+ul{
+    list-style-type: none;
+    margin-top: 200px;
+}
+
+li{
+    display: inline;
+}
+
+
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.list li{
+    float: left;
+}
+
+.list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.list li a:hover {
+    background-color: #111;
+}
+h1{
+    color:#bfbfbf;
+}
+strong{
+    color:  #b3b3ff;
+}
